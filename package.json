@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hokuto-kato/typescript-for-javascript-developers/issues"
   },
-  "homepage": "https://github.com/hokuto-kato/typescript-for-javascript-developers#readme"
+  "homepage": "https://github.com/hokuto-kato/typescript-for-javascript-developers#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
 }
