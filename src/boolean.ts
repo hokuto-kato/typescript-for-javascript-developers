@@ -7,7 +7,7 @@ export {}
 // boolean型の変数isFinishedを宣言し、初期値をtrueに設定
 let isFinished: boolean = true
 
-// isFinishedの値をfalseに更新しても方は合っているので問題ない
+// isFinishedの値をfalseに更新しても型は合っているので問題ない
 isFinished = false
 
 // 数値をboolean型の変数に代入するとエラーになる
