@@ -6,4 +6,4 @@ export {}
 let profile: [string, number] = ['hokuto', 45]
 
 // 順番を変えるとエラー
-profile = [45, 'hokuto']
+// profile = [45, 'hokuto']
