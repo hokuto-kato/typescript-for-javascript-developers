@@ -65,4 +65,5 @@ enum colors {
   yellow = '#ffff00'
 }
 
-colors.yellow
+let yellow = colors.yellow
+console.log(yellow)
