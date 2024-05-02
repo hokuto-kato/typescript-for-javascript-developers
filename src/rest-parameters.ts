@@ -9,7 +9,7 @@ const reducer: (accumulator: number, currentValue: number) => number = (
 }
 
 const sum = (...values: number[]): number => {
-  // 引数 "values" は rest parameter（残余引数/可変長引数）で、1つ以上の数値を受け取れます。
+  // 引数 "values" は rest parameter（残余引数/可変長引数）で、1つ以上の数値を受け取って、配列にします。
   // reduceメソッドは、 "values" の全ての要素に対して "reducer" 関数を実行します。
   // "reducer" 関数は2つの引数、 "accumulator" と "currentValue" を取ります。
   // "accumulator" は累積された戻り値で、最初は "values" の最初の要素になります。
@@ -20,7 +20,7 @@ const sum = (...values: number[]): number => {
   // 1+2=3 3が次のaccumulatorとして渡される
   // 3+3=6
   // 6+4=10
-  // 10+5=15 最後まで評価したたら処理が完了する
+  // 10+5=15 最後まで評価したら処理が完了する
   return values.reduce(reducer)
 }
 
