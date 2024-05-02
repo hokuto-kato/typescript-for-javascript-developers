@@ -2,7 +2,8 @@ export {}
 
 // 数値であれば2倍に、文字列であれば連結して返す関数
 
-// overload
+// overload 同じ名前の関数やメソッドが異なる引数の型や個数を持つことを許容する機能
+// signature 関数の型を定義
 function double(value: number): number
 function double(value: string): string
 
@@ -16,7 +17,7 @@ function double(value: any): any {
 console.log(double(100))
 console.log(double('Go'))
 
-// overloadで型制約が担保されているため、booleanではエラーが出て関数が実行されない
+// signatureで型制約が担保されているため、booleanではエラーが出て関数が実行されない
 // console.log(double(true))
 
 // # union型とoverloadの使い分け
